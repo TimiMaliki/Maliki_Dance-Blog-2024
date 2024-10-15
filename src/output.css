@@ -808,6 +808,10 @@ video {
     top: 70%;
   }
 
+  .lg\:top-\[50\%\] {
+    top: 50%;
+  }
+
   .lg\:h-\[900px\] {
     height: 900px;
   }
