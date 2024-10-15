@@ -183,7 +183,7 @@ const displayArticle = (AllBlogs) => {
               alt=""
             />
           </a>
-          <div class="lg:p-5">
+          <div class="lg:p-15">
             <a href="#">
               <h5
                 class="mb-2  text-lg lg:text-2xl  text-center font-bold tracking-tight text-slate-300 dark:text-black"
@@ -194,28 +194,25 @@ const displayArticle = (AllBlogs) => {
             <p class="mb-1 text-wrap  text-center text-md font-normal text-gray-700 dark:text-gray-400">
              ${post.text}
             </p>
-          
-            <button
-         type="button"
-         class="w-[100px] h-[24px] lg:w-full lg:h-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-       >
-         ${post.ReadMore}
-       </button>
-          
-
-
-         <button
-         type="button"
-         class="w-[100px] h-[24px] lg:w-full lg:h-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-       >
-         ${post.paid}
-       </button>
+          <div class=" flex justify-center p-10">
+          <button
+          type="button"
+          class="w-[100px] h-[24px] lg:w-full lg:h-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+        >
+       ${post.ReadMore}
+     </button>
         
 
 
+       <button
+       type="button"
+       class="w-[100px] h-[24px] lg:w-full lg:h-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+     >
+       ${post.paid}
+     </button>
           </div>
-         
-                  
+          
+          </div>     
         </div>
       </div>
         
