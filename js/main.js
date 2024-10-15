@@ -115,7 +115,7 @@ const AllBlogs = [{
     image: "./images/World_Car-Free_Day_3_2x-100__1_.jpg",
     Header:"The Dance Awards: how did your city do?",
     text:"From most members to most repairs—which city comes out on top?.",
-    paid:"Free",
+    paid:"Not Free",
     ReadMore:"Read More"
 
 },
@@ -188,7 +188,7 @@ const displayArticle = (AllBlogs) => {
           <div class="lg:p-15">
             <a href="#">
               <h5
-                class="mb-2  text-lg lg:text-2xl  text-center font-bold tracking-tight text-slate-300 dark:text-black"
+                class="mb-2  text-lg lg:text-2xl  text-center font-bold tracking-tight text-slate-300 dark:text-black p-10"
               >
                 ${post.Header}
               </h5>
@@ -210,7 +210,7 @@ const displayArticle = (AllBlogs) => {
        type="button"
        class="w-[70px] h-[24px] lg:w-full lg:h-full text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
      >
-       ${post.paid}
+       ${post.paid }
      </button>
           </div>
           
