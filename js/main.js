@@ -108,11 +108,13 @@ themeButton.addEventListener('click', () => {
 
 
 
+
+
 const AllBlogs = [{
     id: 1,
     image: "./images/World_Car-Free_Day_3_2x-100__1_.jpg",
-    Header:"Noteworthy technology acquisitions 2021",
-    text:" Here are the biggest enterprise technology acquisitions of 2021 ,so far in reverse chronological order.",
+    Header:"The Dance Awards: how did your city do?",
+    text:"From most members to most repairs—which city comes out on top?.",
     paid:"Free",
     ReadMore:"Read More"
 
@@ -122,8 +124,8 @@ const AllBlogs = [{
 {
     id: 2,
     image:"./images/Artboard_1_2x__2_-min.jpg",
-    Header:"Noteworthy technology acquisitions 2021",
-    text:" Here are the biggest enterprise technology acquisitions of 2021 ,so far in reverse chronological order.",
+    Header:"Dance x Komoot: Discover more of your city",
+    text:"Want to go further with your Dance ride? We’ve been working with Komoot to add more adventure to your weekends with selected routes for you to explore.",
     paid:"Not Free",
     ReadMore:"Read More"
 },
@@ -131,8 +133,8 @@ const AllBlogs = [{
 {
     id: 3,
     image:"./images/10k.jpeg",
-    Header:"Noteworthy technology acquisitions 2021",
-    text:" Here are the biggest enterprise technology acquisitions of 2021 ,so far in reverse chronological order.",
+    Header:"10K and counting: how we built a 10,000-person movement",
+    text:"How we got here, and what’s next for Dance.",
     paid:"Not Free",
     ReadMore:"Read More"
 },
@@ -140,8 +142,8 @@ const AllBlogs = [{
 {
     id: 4,
     image:"./images/230613_LI-TW-FB_LinkedIn_MILESxDance-Post-1__2_.jpg",
-    Header:"Noteworthy technology acquisitions 2021",
-    text:" Here are the biggest enterprise technology acquisitions of 2021 ,so far in reverse chronological order.",
+    Header:"Dance x MILES: Why mobility services should work together for more livable cities",
+    text:"Our journeys might look different, but Dance and MILES are heading towards the same destination—and this is just the beginning.",
     paid:"Not Free",
     ReadMore:"Read More"
 },
@@ -150,8 +152,8 @@ const AllBlogs = [{
 {
     id: 5,
     image:"./images/SIXTshare_x_Dance_Email_v1.png",
-    Header:"Noteworthy technology acquisitions 2021",
-    text:" Here are the biggest enterprise technology acquisitions of 2021 ,so far in reverse chronological order.",
+    Header:"Dance announces new funding & welcomes additional investors",
+    text:"Dance raises additional capital from current and new investors partnering with the company on its mission to create more livable cities.",
     paid:"Not Free",
     ReadMore:"Read More"
 },
@@ -159,8 +161,8 @@ const AllBlogs = [{
 {
     id: 6,
     image:"./images/VennDiagramEnglish.png",
-    Header:"Noteworthy technology acquisitions 2021",
-    text:" Here are the biggest enterprise technology acquisitions of 2021 ,so far in reverse chronological order.",
+    Header:"8 reasons subscribing to your ebike or moped makes sense",
+    text:"And why ‘access’ is even better than ‘ownership’.",
     paid:"Not Free",
     ReadMore:"Read More"
 },
